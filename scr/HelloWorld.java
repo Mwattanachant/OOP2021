@@ -1,10 +1,18 @@
 public class HelloWorld{
     public static void main(String[] args) {
         System.out.println("HelloWorld");
-<<<<<<< HEAD
         System.out.println("Motana Yub");
-=======
         System.out.println("\n So idiots\n");
->>>>>>> 76a83af9fb40aef478ef111d4e7e356019559da2
+        int x=5;
+        for(int n=1;n<=x;n++){
+            for(int i=1;i+n<=x;i++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=n;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
     }
 }
